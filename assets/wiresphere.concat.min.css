@@ -441,12 +441,12 @@ a.nice-link:hover>.hover>span:nth-child(4) {
     white-space: nowrap;
     position: absolute;
     top: 30%;
-    left: 40px;
-    text-transform: uppercase
+    left: 30px;
+    text-transform: uppercase;
 }
 
 .stage>.stage-header h1 {
-    font-size: 3.5em;
+    font-size: 4em;
     color: #00e0ce;
     font-weight: 700;
     margin: 0;
@@ -454,7 +454,7 @@ a.nice-link:hover>.hover>span:nth-child(4) {
 }
 
 .stage>.stage-header h2 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: #FFF;
     font-weight: 300;
     margin: 0;
@@ -488,7 +488,7 @@ screen and (max-height:640px) {
 .stage>.stage-logo {
     position: absolute;
     top: 40px;
-    left: 40px
+    left: 30px
 }
 
 .stage>.stage-button {
