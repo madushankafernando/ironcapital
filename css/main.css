@@ -671,7 +671,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header__profile-btn {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -679,8 +679,8 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     padding: 0 6px 0 6px;
     height: 54px;
-    border: 1px solid #222227;
-    border-radius: 16px;
+    width: 54px;
+    border: none;
 }
 
 .header__profile-btn--verified:after {
