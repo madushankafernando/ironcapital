@@ -61,7 +61,8 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+    color: #eee;
 }
 
 a:active,
@@ -509,9 +510,14 @@ screen and (max-height:640px) {
 }
 
 .stage>.stage-footer {
-    position: absolute;
-    z-index: 10;
-    right: 50px;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
 }
 
 .stage>.stage-nav {
